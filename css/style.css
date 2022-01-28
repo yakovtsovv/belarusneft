@@ -5,6 +5,7 @@ body{
 
 .logo{
     text-align: center;
+    margin: 20px;
 }
 
 .navigation{
@@ -14,12 +15,14 @@ body{
 .list-station{
     width: 468px;
     height: 30px;
+    font-family: Russia;
 }
 
 .number-station{
     height: 38px;
     width: 190px;
     text-align: center;
+    font-family: Russia;
 }
 
 .field-benzine{
@@ -30,6 +33,7 @@ body{
     height: 32px;
     width: 270px;
     text-align: center;
+    font-family: Russia;
 }
 
 .gas-button{

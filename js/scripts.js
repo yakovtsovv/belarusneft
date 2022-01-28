@@ -15,7 +15,7 @@ for (let i = 0; i < gasOption.length; i++){
             alert("Ошибка! Вы не выбрали номер колонки или не указали кол-во бензина.");
             return false;
         }
-        let dialog = confirm("Стоимость бензина " + gasOption[i].value + " за " + amountBenzine + " литр(а/ов)" + " = " + calculation.toFixed(2) + " BYN");
+        let dialog = confirm("Вы выбрали колонку №" + numberStation.selectedIndex + ". " + "Стоимость бензина " + gasOption[i].value + " за " + amountBenzine + " литр(а/ов)" + " = " + calculation.toFixed(2) + " BYN");
         if(dialog){
             if(userMoney >= amountBenzine * priceBenzine){
                 userMoney-=amountBenzine * priceBenzine;

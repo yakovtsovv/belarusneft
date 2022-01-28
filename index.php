@@ -11,7 +11,7 @@
 <body>
 <div class="header">
     <div class="logo">
-        <img id="img-logo" src="https://www.belarusinfo.by/ru/images/stories/logo/86262.gif">
+        <img id="img-logo" src="https://www.belorusneft.by/sitebeloil/system/modules/by.iba.beloil.templates/resources/i/b-logo.png">
     </div>
     <div class="navigation">
         <select class="list-station">
