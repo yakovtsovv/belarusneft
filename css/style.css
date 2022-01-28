@@ -3,12 +3,22 @@ body{
     padding: 0;
 }
 
-.form{
-    margin: 20px;
-    float: left;
+.logo{
+    text-align: center;
 }
 
-.logo{
+.navigation{
+    text-align: center;
+}
+
+.list-station{
+    width: 468px;
+    height: 30px;
+}
+
+.number-station{
+    height: 38px;
+    width: 190px;
     text-align: center;
 }
 
@@ -18,7 +28,7 @@ body{
 
 #field-liters-benzine{
     height: 32px;
-    width: 464px;
+    width: 270px;
     text-align: center;
 }
 

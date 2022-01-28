@@ -13,12 +13,29 @@
     <div class="logo">
         <img id="img-logo" src="https://www.belarusinfo.by/ru/images/stories/logo/86262.gif">
     </div>
+    <div class="navigation">
+        <select class="list-station">
+            <option hidden disabled selected>Выберите заправку</option>
+            <option>ул. Богдана Хмельницкого 101, Гомель</option>
+            <option>ул. Докутович 57А, Гомель</option>
+            <option>улица Украинская, Гомель</option>
+            <option>ул. Косарева, Гомель</option>
+            <option>Луговая ул. 2д, Гомель</option>
+        </select>
+    </div>
     <div class="money">
         <h1 class="user-money">0<span> BYN</span></h1>
     </div>
 </div>
 <div class="menu">
     <div class="field-benzine">
+        <select class="number-station">
+            <option hidden disabled selected>Выберите номер колонки</option>
+            <option>Колонка №1</option>
+            <option>Колонка №2</option>
+            <option>Колонка №3</option>
+            <option>Колонка №4</option>
+        </select>
         <input id="field-liters-benzine" type="number" min="1" max="100" placeholder="Введите количество литров бензина">
         <br>
         <div class="option">
