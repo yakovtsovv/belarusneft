@@ -31,10 +31,10 @@
     <div class="field-benzine">
         <select class="number-station">
             <option hidden disabled selected>Выберите номер колонки</option>
-            <option>Колонка №1</option>
-            <option>Колонка №2</option>
-            <option>Колонка №3</option>
-            <option>Колонка №4</option>
+            <option value="station-one">Колонка №1</option>
+            <option value="station-two">Колонка №2</option>
+            <option value="station-three">Колонка №3</option>
+            <option value="station-four">Колонка №4</option>
         </select>
         <input id="field-liters-benzine" type="number" min="1" max="100" placeholder="Введите количество литров бензина">
         <br>
@@ -50,14 +50,14 @@
     <div class="table-price">
         <table>
             <tr>
-                <th>График изменения цен</th>
+                <th>Лист изменения цен</th>
                 <th>АИ-92</th>
                 <th>АИ-95</th>
                 <th>АИ-98</th>
                 <th>ДТ</th>
             </tr>
             <tr>
-                <td>28.01.2022</td>
+                <td>16.11.2021</td>
                 <td>2.00 BYN</td>
                 <td>2.10 BYN</td>
                 <td>2.24 BYN</td>

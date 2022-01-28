@@ -1,4 +1,5 @@
 let textMoneyUser = document.querySelector(".user-money");
+let numberStation = document.querySelector(".number-station");
 let gasOption = document.querySelectorAll(".gas-button");
 
 let userMoney = 50;
@@ -10,8 +11,8 @@ for (let i = 0; i < gasOption.length; i++){
         let amountBenzine = document.getElementById("field-liters-benzine").value;
         let priceBenzine = this.getAttribute("data");
         let calculation = amountBenzine * priceBenzine;
-        if(amountBenzine == ""){
-            alert("Вы не ввели количество бензина");
+        if(amountBenzine == "" || numberStation.selectedIndex == 0){
+            alert("Ошибка! Вы не выбрали номер колонки или не указали кол-во бензина.");
             return false;
         }
         let dialog = confirm("Стоимость бензина " + gasOption[i].value + " за " + amountBenzine + " литр(а/ов)" + " = " + calculation.toFixed(2) + " BYN");
