@@ -1,11 +1,75 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: lightgoldenrodyellow;
 }
 
 .logo{
     text-align: center;
     margin: 20px;
+}
+
+.window-information{
+    background: rgba(0,0,0,.8);
+    border: 2px solid hsla(0,0%,66.7%,.75);
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 55%);
+    padding: 1rem;
+    width: 420px;
+    height: 600px;
+    float: left;
+    margin: 20px;
+}
+
+.info-block{
+    width: 280px;
+    height: 114px;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    margin-top: 2px;
+    border: 2px solid hsla(0,0%,66.7%,.75);
+    box-shadow: 0 2px 7px rgb(0 0 0 / 55%);
+    float: right;
+}
+
+.statistics-user{
+    margin: 10px;
+}
+
+.text-label{
+    color: white;
+    font-family: Russia;
+}
+
+.information-title{
+    color: white;
+    background: rgba(0,0,0,.8);
+    border: 2px solid hsla(0,0%,66.7%,.75);
+    border-radius: 5px;
+    box-shadow: 0 2px 7px rgb(0 0 0 / 55%);
+    text-align: center;
+    font-family: Russia;
+    text-transform: uppercase;
+}
+
+.window-transaction{
+    width: 414px;
+    height: 330px;
+    background: rgba(0,0,0,.8);
+    border: 2px solid hsla(0,0%,66.7%,.75);
+    border-radius: 5px;
+    color: white;
+    resize: none;
+    font-family: Russia;
+    font-size: 20px;
+}
+
+.photo-user{
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
 }
 
 .navigation{
@@ -16,20 +80,29 @@ body{
     width: 468px;
     height: 30px;
     font-family: Russia;
+    margin: 10px;
+}
+
+.list-station:hover{
+    cursor: pointer;
 }
 
 .number-station{
     height: 38px;
-    width: 190px;
+    width: 186px;
     text-align: center;
     font-family: Russia;
+}
+
+.number-station:hover{
+    cursor: pointer;
 }
 
 .field-benzine{
     text-align: center;
 }
 
-#field-liters-benzine{
+.field-liters-benzine{
     height: 32px;
     width: 270px;
     text-align: center;
@@ -48,6 +121,7 @@ body{
     cursor: pointer;
     border-radius: 4%;
     background-color: lightsteelblue;
+    transition: 0.5s;
 }
 
 .option{
@@ -55,13 +129,8 @@ body{
 }
 
 .user-money {
-    text-align: center;
-    font-size: 42px;
+    color: white;
     font-family: Russia;
-}
-
-.window-price{
-    margin: 20px;
 }
 
 td{
